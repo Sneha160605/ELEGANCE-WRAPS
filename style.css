@@ -252,3 +252,38 @@ footer {
     display: none;
     background: #f8f8f8;
 }
+.contact-container {
+    width: 50%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-container textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.contact-container button {
+    width: 150px;
+    padding: 12px;
+    background: #d63384;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-container button:hover {
+    background: #bb337d;
+}
