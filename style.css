@@ -148,3 +148,33 @@ footer {
     margin-bottom: 20px;
 }
 
+.customize-form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.customize-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 250px;
+}
+
+.gift-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background: #ff69b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+

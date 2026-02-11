@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customize Your Gift | Elegance Wraps</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">🎁 Elegance Wraps</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="customize.html" class="active">Customize</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1>Customize Your Gift Packaging</h1>
+</section>
+
+<section class="customize-form-container">
+    <form id="customForm">
+        <label for="color">Choose Box Color:</label>
+        <input type="color" id="color" name="color" value="#ff69b4">
+
+        <label for="ribbon">Ribbon Color:</label>
+        <input type="color" id="ribbon" name="ribbon" value="#ffffff">
+
+        <label for="message">Personalized Message:</label>
+        <input type="text" id="message" name="message" placeholder="Happy Birthday!">
+
+        <button type="submit" class="btn">Preview</button>
+    </form>
+
+    <div class="preview">
+        <h3>Gift Preview:</h3>
+        <div id="giftPreview" class="gift-box">
+            Your gift box will appear here
+        </div>
+        <p id="previewMessage"></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Elegance Wraps | Designed with ❤️</p>
+</footer>
+
+</body>
+</html>
