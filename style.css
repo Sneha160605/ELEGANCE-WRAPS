@@ -224,3 +224,31 @@ footer {
 }
 
 
+.faq-container {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    border: none;
+    background: #d63384;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.faq-answer {
+    padding: 15px;
+    display: none;
+    background: #f8f8f8;
+}

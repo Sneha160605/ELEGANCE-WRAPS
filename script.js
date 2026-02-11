@@ -14,3 +14,11 @@ form.addEventListener("submit", function(e){
     giftBox.style.border = `5px solid ${ribbon}`;
     previewMessage.textContent = message;
 });
+const faqButtons = document.querySelectorAll(".faq-question");
+
+faqButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const answer = button.nextElementSibling;
+        answer.style.display = answer.style.display === "block" ? "none" : "block";
+    });
+});
